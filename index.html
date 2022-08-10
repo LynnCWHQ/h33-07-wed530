@@ -21,10 +21,17 @@
     <div class="container">
 
         <div class="index">
-            <h3>Index</h3>
+            <h3>Tree List</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
             <p><button id="cherry">Cherry</button></p>
+
+            <p><button id="rosewood">Rosewood</button></p>
+
+            <p><button id="maple">Maple</button></p>
+            <p><button id="tree">Tree</button></p>
+
+            <p><button id="magnolia">Magnolia</button></p>
 
         </div>
         <div class="content">
@@ -34,7 +41,7 @@
             </iframe>
         </div>
         <div class="summary">
-            <iframe  id="i_summary" src="oak_summary.html">
+            <iframe id="i_summary" src="oak_summary.html">
             </iframe>
         </div>
 
@@ -53,11 +60,40 @@
         $("#beech").click(function(){
             $("#i_content").attr("src","beech_content.html");
             $("#i_summary").attr("src","beech_summary.html");
+
         })
         $("#cherry").click(function(){
             $("#i_content").attr("src","cherry_content.html");
             $("#i_summary").attr("src","cherry_summary.html");
+
         })
+
+        $("#rosewood").click(function(){
+            $("#i_content").attr("src","rosewood_content.html");
+            $("#i_summary").attr("src","rosewood_summary.html");
+        })
+        $("#maple").click(function(){
+            $("#i_content").attr("src","maple_content.html");
+            $("#i_summary").attr("src","maple_summary.html");
+
+        })
+    
+        $("#magnolia").click(function(){
+            $("#i_content").attr("src","magnolia_content.html");
+            $("#i_summary").attr("src","magnolia_summary.html");
+            
+
+        })
+
+        $("#tree").click(function(){
+            $("#i_content").attr("src","tree_content.html");
+            $("#i_summary").attr("src","tree_summary.html");
+
+        })
+
+
+   
+
 
         /* This will not be merged !  */
 
